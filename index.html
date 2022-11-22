@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Page: Don't Panic</title>
     <style>
-        div {
-            border: 1px solid #000;
-        }
-        div a {
-            color: green;
-        }
         li a {
             color: red
         }
@@ -20,6 +14,15 @@
         }
         .regular-link {
             color: lightblue;
+        }
+        #exec-bio {
+            background-color: lightgray;
+        }
+        .bio-box {
+            border: 1px solid #000;
+        }
+        .bio-box a {
+            color: green;
         }
     </style>
 </head>
@@ -37,13 +40,13 @@
         </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box">
         <a href="https://example.com">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
         <a href="https://example.com">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
         <a href="https://example.com">I'm a link</a>
     </div>
 </body>
